@@ -12,8 +12,8 @@ def subtraction(num1, num2):
 def divide(num1, num2):
     return num1 / num2
 
-value1 = int(input("Enter First number:\n"))
-value2 = int(input("Enter Second number:\n"))
+value1 = float(input("Enter First number:\n"))
+value2 = float(input("Enter Second number:\n"))
 
 print("Select operation 1-Divi, 2-Multi, 3-Add, 4-Sub")
 operation = int(input("Choose operation 1 or 2 or 3 or 4:\n "))
